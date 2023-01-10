@@ -3,4 +3,72 @@
 @import 'reset';
 @import 'libs';
 @import 'global';
+
+
+.header {
+    padding: 20px;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.logo{
+    margin-bottom: 20px;
+}
+.menu {
+    &__list {
+        display: flex;
+    }
+
+    &__list-item+.menu__list-item {
+        padding-left: 45px;
+    }
+
+    &__list-link {
+        @extend %montserrat-400;
+        font-size: 16px;
+        color: $default-color;
+        background-image: linear-gradient(to right,
+                $accent-color,
+                $accent-color 50%,
+                $default-color 50%);
+        background-size: 200% 100%;
+        background-position: -100%;
+        display: inline-block;
+        padding: 5px 0;
+        position: relative;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 0.3s ease-in-out;
+
+        &:before {
+            content: '';
+            background: $accent-color;
+            display: block;
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 0;
+            height: 1px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        &:hover {
+            background-position: 0;
+        }
+
+        &:hover::before {
+            width: 100%;
+        }
+    }
+    &__number{
+        @extend %montserrat-500;
+        color: $accent-color;
+        font-size: 26px;
+        line-height: 125%;
+    }
+}
+
 @import 'media';

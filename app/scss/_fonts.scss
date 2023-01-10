@@ -1,9 +1,65 @@
 @font-face {
 	font-family: 'DrukTextWideCyr-Bold';
+	font-weight: 700;
+	font-style: normal;
 	src: url('../fonts/druktextwidecyr-bold.eot'); /* IE 9 Compatibility Mode */
 	src: url('../fonts/druktextwidecyr-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
 		url('../fonts/druktextwidecyr-bold.woff2') format('woff2'), /* Super Modern Browsers */
 		url('../fonts/druktextwidecyr-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
 		url('../fonts/druktextwidecyr-bold.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('../fonts/druktextwidecyr-bold.svg#druktextwidecyr-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'AnnieUseYourTelescope-Regular';
+	font-weight: 400;
+	src:url('../fonts/AnnieUseYourTelescope-Regular.woff2') format('woff2'),
+		url('../fonts/AnnieUseYourTelescope-Regular.woff') format('woff'),
+		url('../fonts/AnnieUseYourTelescope-Regular.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Antonio-Thin';
+	font-weight: 100;
+	src:url('../fonts/Antonio-Thin.woff2') format('woff2'),
+		url('../fonts/Antonio-Thin.woff') format('woff'),
+		url('../fonts/Antonio-Thin.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat-Light';
+	font-weight: 300;
+	src:url('../fonts/Montserrat-Light.woff2') format('woff2'),
+		url('../fonts/Montserrat-Light.woff') format('woff'),
+		url('../fonts/Montserrat-Light.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat-Medium';
+	font-weight: 400;
+	src:url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+		url('../fonts/Montserrat-Medium.woff') format('woff'),
+		url('../fonts/Montserrat-Medium.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat-Regular';
+	font-weight: 500;
+	src:url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+		url('../fonts/Montserrat-Regular.woff') format('woff'),
+		url('../fonts/Montserrat-Regular.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat-SemiBold';
+	font-weight: 600;
+	src:url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+		url('../fonts/Montserrat-SemiBold.woff') format('woff'),
+		url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+	font-display: swap;
 }
