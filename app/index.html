@@ -1,46 +1,222 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a class="menu__logo" href="#">
+                        <img class="logo" src="images/logo.svg" alt="logo">
+                    </a>
 
-<header class="header">
-    <div class="container">
-        <div class="header__inner">
-            <a class="menu__logo" href="#">
-                <img class="logo" src="images/logo.svg" alt="logo">
-            </a>
-        
-        <nav class="menu">
-            <ul class="menu__list">
-                <li class="menu__list-item">
-                    <a class="menu__list-link" href="#">О массаже</a>
-                </li>
-                <li class="menu__list-item">
-                    <a class="menu__list-link" href="#">Прайс</a>
-                </li>
-                <li class="menu__list-item">
-                    <a class="menu__list-link" href="#">Мастер</a>
-                </li>
-                <li class="menu__list-item">
-                    <a class="menu__list-link" href="#">Отзывы</a>
-                </li>
-            </ul>
-        </nav>
-        <a href="tel:89222227832" class="menu__number">+7 (922) 222-78-32</a>
-    </div>
-    </div>
-</header>
-<div class="wrapper">
-    <main class="main"></main>
-    <footer class="footer"></footer>
-</div>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#">О массаже</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#">Прайс</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#">Мастер</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#">Отзывы</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a href="tel:89222227832" class="menu__number">+7 (922) 222-78-32</a>
+                </div>
+            </div>
+        </header>
 
+        <main class="main">
+            <section class="info">
+                <img class="info__image" src="images/info.png" alt="info">
+                <div class="container">
+                    <div class="info__left-side">
+                        <h1 class="info__title">ЦЕНТР МАССАЖНОЙ ТЕРАПИИ И РЕАБИЛИТАЦИИ <span>МАКСИМА
+                                ЖАВРОНКА<span></span>
+                        </h1>
+                        <p class="info__text">Интересный текст про массаж и всякое интересное, реабилитация это классно
+                            и
+                            вообще
+                            все молодцы.</p>
+                        <a class="info__btn-request" href="#">ЗАПИСАТЬСЯ</a>
+                        <a class="info__btn-buy" href="#">КУПИТЬ В ПОДАРОК</a>
+                    </div>
+
+                    <div class="info__bottom">
+                        <div class="info__item">
+                            <h4 class="info__item-title">Массаж</h4>
+                            <p class="info__item-description">Интересный текст про массаж и всякое интересное</p>
+                        </div>
+                        <div class="info__item">
+                            <h4 class="info__item-title">Реабилитация</h4>
+                            <p class="info__item-description">Интересный текст про массаж и всякое интересное</p>
+                        </div>
+                        <div class="info__item ">
+                            <h4 class="info__item-title">Что - то еще</h4>
+                            <p class="info__item-description">Интересный текст про массаж и всякое интересное</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <div class="container">
+                    <h2 class="title">МАССАЖИСТ</h2>
+                    <div class="about__inner">
+                        <div class="about__description">
+                            <h4 class="about__description-text">
+                                Здравствуйте, меня зовут <span>Максим</span>.<br>
+                                Я физиотерапевт с опытом работы более 15 лет.
+                            </h4>
+                            <ul class="about__description-items">
+                                <li class="about__description-item">Штатный физиотерапевт ВК Уралочка</li>
+                                <li class="about__description-item">Участник мастерклассов и вечеринок</li>
+                                <li class="about__description-item">Мастер спортивного массажа</li>
+                                <li class="about__description-item">Реально крутой массажист</li>
+                            </ul>
+                        </div>
+                        <img class="about__photo" src="images/photo-about.png" alt="photo">
+                        <img class="about__back" src="images/back.svg" alt="back">
+                    </div>
+                </div>
+            </section>
+            <section class="price">
+                <div class="container">
+                    <h2 class="title">ПРАЙС</h2>
+                </div>
+            </section>
+            <section class="gallery">
+                <div class="container">
+                    <h2 class="title">ГАЛЛЕРЕЯ</h2>
+                </div>
+                <div class="slider-top">
+                    <div class="slider__item"><img src="images/slider-image-1.png" alt=""></div>
+                    <div class="slider__item"><img src="images/slider-image-2.png" alt=""></div>
+                    <div class="slider__item"><img src="images/slider-image-3.png" alt=""></div>
+                    <div class="slider__item"><img src="images/slider-image-1.png" alt=""></div>
+                    <div class="slider__item"><img src="images/slider-image-2.png" alt=""></div>
+                    <div class="slider__item"><img src="images/slider-image-3.png" alt=""></div>
+                </div>
+                <div class="slider-bottom" dir="rtl">
+                    <div class="slider__item"><img src="images/slider-image-4.png" alt=""></div>
+                    <div class="slider__item"><img src="images/slider-image-5.png" alt=""></div>
+                    <div class="slider__item"><img src="images/slider-image-6.png" alt=""></div>
+                    <div class="slider__item"><img src="images/slider-image-4.png" alt=""></div>
+                    <div class="slider__item"><img src="images/slider-image-5.png" alt=""></div>
+                    <div class="slider__item"><img src="images/slider-image-6.png" alt=""></div>
+                </div>
+
+            </section>
+            <section class="feedback">
+                <div class="container">
+                    <h2 class="title">ОТЗЫВЫ</h2>
+                    <div class="slider-feedback">
+                        <div class="slider-feedback__item">
+                            <img class="feedback__img" src="images/avatar-1.png" alt="avatar">
+                            <div class="feedback__content">
+                                <div class="feedback__content-top">
+                                    <p class="feedback__content-name">Екатерина</p>
+                                    <p class="feedback__content-star star" data-rateyo-rating="4"></p>
+                                </div>
+                                <p class="feedback__content-text">
+                                    Работа выполнена на 10 из 10. Рекомендую выбирать именно этого специалиста, потому
+                                    что после 1 сеанса испытала облегчение, боль ушла, самочувствие значительно
+                                    улучшилось. Тактичный, внимательный, гибкий, заинтересованный в результате!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slider-feedback__item">
+                            <img class="feedback__img" src="images/avatar-2.png" alt="avatar">
+                            <div class="feedback__content">
+                                <div class="feedback__content-top">
+                                    <p class="feedback__content-name">Елена</p>
+                                    <p class="feedback__content-star star" data-rateyo-rating="4"></p>
+                                </div>
+                                <p class="feedback__content-text">
+                                    Внимательный и грамотный подход. Порадовало совмещение нескольких массажей в одном,
+                                    исходя из потребностей моего тела. С большой вероятностью в скором времени снова
+                                    приду к нему за массажем!) Благодарю!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="map">
+                <div id="map"></div>
+            </section>
+            <section class="form">
+                <div class="container">
+                    <h2 class="title form__title">ЕЩЕ ДУМАЕТЕ?</h2>
+                    <p class="form__text">
+                        Запишитесь на сеанс и получите <span>скидку 10%</span>
+                    </p>
+                    <form class="form__action" action="#">
+                        <input class="form__input" type="text" placeholder="Ваше имя" required>
+                        <input class="form__input" type="text" placeholder="Ваш телефон" required>
+                        <button class="form__button" type="submit">ЗАПИСАТЬСЯ</button>
+                    </form>
+                    <p class="form__subtext">Отправляя свои данные вы даете согласие на обработку <span>персональных
+                            данных</span></p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__item">
+                        <a href="#"><img src="images/logo-small.svg" alt="logo-small"></a>
+                    </div>
+                    <div class="footer__item">
+                        <a href="#"><img src="images/whatsapp.svg" alt="whatsapp"></a>
+                        <a href="#"><img src="images/telegram.svg" alt="telegram"></a>
+                        <a href="#"><img src="images/vk.svg" alt="vk"></a>
+                        <a href="#"><img src="images/instagram.svg" alt="instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=b221014c-f740-47dd-bc03-cbfa6331d51f&lang=ru_RU"
+        type="text/javascript">
+        </script>
+    <script>
+        ymaps.ready(init);
+        function init() {
+            var myMap = new ymaps.Map("map", {
+                center: [56.84653096548581, 60.5969470288022],
+                zoom: 15
+            });
+
+            myMap.behaviors.disable(['scrollZoom'])
+
+            var myGeoObject = new ymaps.GeoObject({
+                geometry: {
+                    type: "Point", // тип геометрии - точка
+                    coordinates: [56.84653096548581, 60.5969470288022] // координаты точки
+                }
+            });
+
+            myMap.geoObjects.add(myGeoObject);
+        }
+    </script>
     <script src="js/main.min.js"></script>
 </body>
+
 </html>
